@@ -1,4 +1,7 @@
 var playlist = {
   blink182: "Down",
-  taylorSwift: "Blank Space"
+}
+
+function updatePlaylist(obj, artist, song) {
+  obj[artist] = song;
 }
